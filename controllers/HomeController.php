@@ -4,7 +4,7 @@ class HomeController
 {
     public function home()
     {
-        echo '123';
+        require_once './views/home.php';
     }
 
 }
